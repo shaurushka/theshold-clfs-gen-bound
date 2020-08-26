@@ -7,7 +7,7 @@ The type of the calculated bound and method of learning are specified in "main.c
 Threshold classifiers are specified in txt file. 
 First line contains parameters of the set, separated by space: 
 <full sample size> <train sample size> <noise> <output_name>
-wherr noise is the error on neutral sample where all classifiers return the same response.
+where noise is the error on neutral sample where all classifiers return the same response.
 Then line by line are specified the theshold classifier errors. Errors on one line are separated by space. Each line corresponds to the specific distribution of class samples.
 
 To compile project run makefile. It generates executable gen_bounds_calc. To run it write down in console 
