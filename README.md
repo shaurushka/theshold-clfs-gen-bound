@@ -9,7 +9,7 @@ The type of the calculated bound and method of learning are specified in "main.c
 Threshold classifiers are specified in input filename (would be better if it was of txt extension). 
 First line contains parameters of the set, separated by space: 
 
-\<full sample size\> \<train sample size\> \<noise\> \<output_name\>,
+*\<full sample size\> \<train sample size\> \<noise\> \<output_name\>,*
 
 where noise is the error on neutral sample where all classifiers return the same response, output_name is the name of output filename (would be better if it was of txt extension). 
 Then line by line are specified the theshold classifier errors. Errors on one line are separated by space. Each line corresponds to the specific distribution of class samples.
